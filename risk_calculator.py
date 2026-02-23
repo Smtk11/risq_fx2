@@ -106,7 +106,7 @@ with col2:
         risk_pct = (risk_amt / balance * 100) if balance > 0 else 0
 
     take_profit = st.number_input("Take Profit", value=1.11000, step=0.00001, format="%.5f")
-    leverage    = st.number_input("Levier (x)", min_value=1, max_value=500, value=100, step=10)
+    leverage    = st.number_input("Levier (x)", min_value=1, max_value=2000, value=100, step=10)
 
 st.divider()
 
